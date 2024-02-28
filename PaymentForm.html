@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+     <form action="">
+        <h1>Payment form</h1>
+        <p>Required fields are followed by *</p>
+        <h2>Contact Info</h2>
+        <p>Name:* <input type="text" name="name" required></p>
+        <fieldset>
+             <!--this is used to wrap the p tag entirely-->
+             <legend>Gender</legend><!--by this we give name t the wraped up potion of the p tag-->
+             <p>
+            
+                 Male *<input type="radio" name="gender" id="male" required>
+                Female* <input type="radio" name="gender" id="female" required>
+             </p>
+        </fieldset>
+        <p>Adress : <textarea name="address" id="address" cols="50" rows="5"></textarea></p>
+        <p>Email : <input type="email" name="email" id="email" required></p>
+        <p>Pincode : <input type="number" name="pincode" id="pincode"></p>
+        <hr>
+        <h2>Payment info</h2>
+        <p>Card type :
+            <select name="card_type" id="card_type">
+                <option value="">--Select a card type</option>
+                <option value="visa">Visa</option>
+                <option value="MasterCArd">MasterCard</option>
+                <option value="RuPay">RuPay</option>
+            </select>
+        </p>
+        <p>
+            Card Number: *<input type="number" name="number" id="number" required>
+        </p>
+        <p>
+            Expiration date: <input type="date" name="exp_date" id="exp_date">
+        </p>
+        <p>CVV : <input type="password" name="cvv" id="cvv"></p>
+        <input type="submit" value="Pay Now" >
+
+     </form>
+</body>
+</html>

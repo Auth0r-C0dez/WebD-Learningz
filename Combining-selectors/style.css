@@ -1,0 +1,14 @@
+
+h1 ,h2{
+    color: blueviolet;
+}
+.box > p {
+    color : firebrick;
+}
+.box li { /*in this case the child selector wont work bkz the ul is two level deep */
+    color: blue;
+}
+
+li.done{
+    color: seagreen;
+}

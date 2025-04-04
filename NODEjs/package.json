@@ -1,0 +1,11 @@
+{
+  "name": "trial",
+  "version": "1.0.0",
+  "description": "my trail with node",
+  "main": "file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rana Talukdar",
+  "license": "ISC"
+}
